@@ -93,9 +93,31 @@ p {
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
   margin: 2rem;
   width: 20rem;
-  height: 5.6rem;
-  text-align: center;
   justify-content: center;
   overflow-wrap: break-word;
   vertical-align: middle;
+}
+
+ul {
+  color: gray;
+  line-height: 1.8;
+  padding-left: 2rem;
+}
+.cardcontent {
+}
+
+.contact {
+  text-align: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactimg {
+  width: 200px;
+  margin: 0 auto;
+  text-wrap: wrap;
 }
